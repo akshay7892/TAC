@@ -13,7 +13,7 @@ origins = [
     "ws://localhost:8000/ws"
 
 ]
-
+#
 app.add_middleware(
     CORSMiddleware,
     allow_origins=['*'],
