@@ -25,7 +25,7 @@ app.add_middleware(
 
 @app.get("/exchange")
 def exchange(request: Request):
-    return {"Response":"Success","Message":"","HasWarning":"false","Type":200,"RateLimit":{},"Data":{"NSE":{"pairs":{"SBIN":["EQ"]},"isActive":"true","isTopTier":"true"}}}
+    return {"Response":"Success","Message":"","HasWarning":"false","Type":100,"RateLimit":{},"Data":{"NSE":{"pairs":{"BANDHANBNK":["EQ"],"ICICIBANK":["EQ"],"RBLBANK":["EQ"],"FEDERALBNK":["EQ"],"AUBANK":["EQ"],"AXISBANK":["EQ"],"PNB":["EQ"],"INDUSINDBK":["EQ"],"SBIN":["EQ"],"KOTAKBANK":["EQ"],"HDFCBANK":["EQ"],"IDFCFIRSTB":["EQ"],"NIFTYBANK":["INDEX"],"NIFTY50":["INDEX"],"INDIAVIX":["INDEX"]},"isActive":"true","isTopTier":"true"}}}
     #return {"Hello":"Worlds"}
 
 
